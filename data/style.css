@@ -1,0 +1,27 @@
+body {
+    background: crimson;
+}
+
+.page {
+    margin-top: 5%;
+    background: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    clip-path: inset(0% 20% 0% 20%);
+    border-radius: 15%;
+}
+
+button {
+    overflow:hidden;
+    background-color: inherit;
+    color: white;
+    border-color: white;
+    border-radius: 25%;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: crimson;
+    color: inherit;
+    border-color: crimson;
+}
