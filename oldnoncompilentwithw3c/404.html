@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    body {
+        background-color: black;
+        font-family: sans-serif;
+        color:blueviolet;
+        text-shadow: 50px;
+    }
+</style>
+<body>
+    <center>
+        <h1 id="head"></h1>
+        <h3 id="bottom"></h3>
+        <img id="imagepage" width="256" height="256" src="" alt="">
+    </center>
+</body>
+<script>
+    var head = document.getElementById('head')
+    var bottom = document.getElementById('bottom')
+    var imagepage = document.getElementById('imagepage')
+    if (document.location.pathname == "/l/yt") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Going to Boxugas YouTube"
+        document.location = "https://youtube.com/boxuga"
+    }
+    else if (document.location.pathname == "/l/ig") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Going to Boxugas Instagram"
+        document.location = "https://instagram.com/realboxuga"
+    }
+    else if (document.location.pathname == "/l/gh") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Going to Boxuga's GitHub"
+        document.location = "https://github.com/BoxxyDEV"
+    }
+    else if (document.location.pathname == "/l/discord") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "taking you to a invite for boxugas server"
+        document.location = "https://discord.gg/RYecxEHUZ5"
+    }
+    else if (document.location.pathname == "/l/twitter") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Taking you to boxugas twitter"
+        document.location = "https://twitter.com/realboxuga"
+    }
+    else if (document.location.pathname == "/l/clockapp" || document.location.pathname == "/l/tiktok") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Taking you to boxugas tiktok"
+        document.location = "https://tiktok.com/@realboxuga"
+    }
+    else if (document.location.pathname == "/l/lush") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Taking you to my boi Lush's YouTube"
+        document.location = "https://youtube.com/LushModzツ"
+    }
+    else if (document.location.pathname == "/l/lushd") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Taking you to Lush Modz Discord"
+        document.location = "https://discord.gg/BZPWRuYEE4"
+    }
+    else if (document.location.pathname == "/l/") {
+        head.innerText = "Redirecting"
+        bottom.innerText = "Taking you to a list of links"
+        document.location = "/data/shortlinks.txt"
+    }
+    else if (document.location.pathname == "/l/supermarioisbest") {
+        document.location = "https://youtu.be/dQw4w9WgXcQ"
+    }
+    else {
+        head.innerText = "404 Error"
+        bottom.innerText = "You hit a snag but not a bunnings snag"
+        imagepage.src = "https://c.tenor.com/Rwrye_rjGDkAAAAd/choriso-sausage.gif"
+    }
+</script>
+</html>

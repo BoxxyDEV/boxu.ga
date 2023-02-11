@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boxu.ga</title>
-    <link rel="stylesheet" href="./data/style.css">
-    <link rel="icon" type="image/png" href="/data/favicon.png">
-</head>
-<body>
-    <div class="page" id="page">
-       <center>
-        <h2>Boxuga</h2>
-        <h3>Socials</h3>
-        <button onclick="document.location = 'http://youtube.com/boxuga'"><img width="24px" height="24px" src="/data/youtube.png" alt="">YouTube</button>
-        <button onclick="document.location = 'http://twitter.com/realboxuga'"><img width="24px" height="24px" src="/data/twitter.png" alt="">Twitter</button>
-        <button onclick="document.location = 'http://discord.gg/RYecxEHUZ5'"><img width="24px" height="24px"src="/data/discord.png" alt="">Discord</button>
-        <button onclick="document.location = 'http://twitch.tv/boxuga'"><img width="24px" height="24px"src="/data/twitch.png" alt="">Twitch</button>
-        <button onclick="document.location = 'http://tiktok.com/@realboxuga'"><img width="24px" height="24px"src="/data/tiktok.png" alt="">TikTok</button>
-        <button onclick="document.location = 'http://github.com/BoxxyDEV'"><img width="24px" height="24px"src="/data/github.png" alt="">Github</button>
-        <h3>Projects</h3>
-            <button onclick="document.location = 'http://hedgehog.boxu.ga'">Hedgehog Menu</button>
-            <button onclick="document.location = 'https://rtm.boxu.ga'">Boxuga's RTM Tools</button>
-        <h3>Useful Links</h3>
-        <button onclick="document.location = 'http://boxu.ga/windl'">Windows 7 Downloads</button>
-       </center> 
-    </div>
-</body>
-<script>
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    var page = document.getElementById('page');
-      page.style.clipPath = "inset(0% 0% 0% 0%)"
-    }
-</script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" type="image/png" href="/favicon.ico">
+        <title>Boxuga's Homepage</title>
+    </head>
+    <body>
+        <div class="circularfloatingwindow">
+            <div class="circularfloatingwindow_text">
+                <h1>Welcome to Boxuga's Homepage</h1>
+                <p>
+                    <a class="navbuttons" id="HomeButton" style="float: left;" href="/">Home</a> 
+                    <a style="float: right;" class="navbuttons" id="AboutMeButton" href="/about/">About Me</a>
+                </p>
+                        <br>
+                        <h2>Game Mods</h2>
+                        <button onclick="document.location = gta5_modsprofile" class="hyperlinkbutton">GTA 5 PC Mods</button>
+                        <button onclick="document.location = console_mods" class="hyperlinkbutton">Console Mods</button>
+                        <h2>Socials</h2>
+                        <button onclick="document.location = twitter_url" class="hyperlinkbutton">Twitter @RealBoxuga</button>
+                        <button onclick="document.location = youtube_boxuga_url" class="hyperlinkbutton">YouTube @Boxuga</button>
+                        <button onclick="document.location = youtube_boxugatwo_url" class="hyperlinkbutton">YouTube @Boxuga2</button>
+                        <button onclick="document.location = youtube_boxugathree_url" class="hyperlinkbutton">YouTube @Boxuga3</button>
+                        <button onclick="document.location = tiktok_url" class="hyperlinkbutton">TikTok @RealBoxuga</button>
+                        <button onclick="document.location = twitch_url" class="hyperlinkbutton">Twitch @Boxuga</button>
+                        <button onclick="document.location = github_url" class="hyperlinkbutton">GitHub @BoxxyDEV</button>    
+            </div> 
+        </div>
+        <script src="/js/index.js"></script>
+    </body>
 </html>

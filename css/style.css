@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    background-color: #5a47f2;
+    background-image: url(/images/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+.circularfloatingwindow {
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.circularfloatingwindow_text {
+    width: 60%;
+    background-color: rgba(92, 60, 222, 0.6);
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.navbuttons {
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.hyperlinkbutton {
+    padding: 5px 5px 5px 5px;
+    background-color: #5a47f2;
+    border-radius: 10px;
+    text-decoration: none;
+    border-color: transparent;
+    color: white;
+    margin-top: 10px;
+}
+
+.hyperlinkbutton:hover {
+    background-color: white;
+    color: black;
+    cursor:default;
+}
+
+.spacerobject {
+    width: 49%;
+    background-color: rgba(92, 60, 222, 0.6);
+    text-align: center;
+}
+
+.spacerobject h3 {
+    color: white;
+}
+
+iframe {
+    border-color: purple;
+    border-width: 10px;
+}

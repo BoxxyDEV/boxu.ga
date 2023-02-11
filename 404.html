@@ -4,78 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <title>404</title>
 </head>
-<style>
-    body {
-        background-color: black;
-        font-family: sans-serif;
-        color:blueviolet;
-        text-shadow: 50px;
-    }
-</style>
 <body>
-    <center>
-        <h1 id="head"></h1>
-        <h3 id="bottom"></h3>
-        <img id="imagepage" width="256" height="256" src="" alt="">
-    </center>
+    <div class="circularfloatingwindow">
+        <div class="circularfloatingwindow_text">
+            <h1 id="head">404 not found </h1>
+            <h3 id="bottom">updating</h3>
+            <img id="imagepage" width="256" height="256" src="#" alt="">
+        </div>
+    </div>
+    <script>
+        var head = document.getElementById('head');
+        var bottom = document.getElementById('bottom');
+        var imagepage = document.getElementById('imagepage');
+        if (document.location.pathname == "/l/yt" || document.location.pathname == "/yt") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "Going to Boxugas YouTube";
+            document.location = "https://youtube.com/boxuga";
+        }
+        else if (document.location.pathname == "/l/gh" || document.location.pathname == "/github") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "Going to Boxuga's GitHub";
+            document.location = "https://github.com/BoxxyDEV";
+        }
+        else if (document.location.pathname == "/l/discord" || document.location.pathname == "/discord") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "taking you to a invite for boxugas server";
+            document.location = "https://discord.gg/RYecxEHUZ5";
+        }
+        else if (document.location.pathname == "/l/twitter" || document.location.pathname == "/twitter") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "Taking you to boxugas twitter";
+            document.location = "https://twitter.com/realboxuga";
+        }
+        else if (document.location.pathname == "/l/clockapp" || document.location.pathname == "/l/tiktok" || document.location.pathname == "/tiktok") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "Taking you to boxugas tiktok";
+            document.location = "https://tiktok.com/@realboxuga";
+        }
+        else if (document.location.pathname == "/l/lush") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "Taking you to my boi Lush's YouTube";
+            document.location = "https://youtube.com/LushModzツ";
+        }
+        else if (document.location.pathname == "/l/lushd") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "Taking you to Lush Modz Discord";
+            document.location = "https://discord.gg/BZPWRuYEE4";
+        }
+        else if (document.location.pathname == "/l/") {
+            head.innerText = "Redirecting";
+            bottom.innerText = "Taking you to a list of links";
+            document.location = "/links.txt";
+        }
+        else if (document.location.pathname == "/l/supermarioisbest") {
+            document.location = "https://youtu.be/dQw4w9WgXcQ";
+        }
+        else {
+            head.innerText = "404 sonic plush not found"
+            bottom.innerText = "Looks like sonic said gotta go fast and jumped out of a plane";
+            imagepage.src = "https://media.tenor.com/RW5vET5RNycAAAAd/dead-sonic.gif";
+            setTimeout(function() {document.location = "/"}, 10000);
+        }
+    </script>
 </body>
-<script>
-    var head = document.getElementById('head')
-    var bottom = document.getElementById('bottom')
-    var imagepage = document.getElementById('imagepage')
-    if (document.location.pathname == "/l/yt") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Going to Boxugas YouTube"
-        document.location = "https://youtube.com/boxuga"
-    }
-    else if (document.location.pathname == "/l/ig") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Going to Boxugas Instagram"
-        document.location = "https://instagram.com/realboxuga"
-    }
-    else if (document.location.pathname == "/l/gh") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Going to Boxuga's GitHub"
-        document.location = "https://github.com/BoxxyDEV"
-    }
-    else if (document.location.pathname == "/l/discord") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "taking you to a invite for boxugas server"
-        document.location = "https://discord.gg/RYecxEHUZ5"
-    }
-    else if (document.location.pathname == "/l/twitter") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Taking you to boxugas twitter"
-        document.location = "https://twitter.com/realboxuga"
-    }
-    else if (document.location.pathname == "/l/clockapp" || document.location.pathname == "/l/tiktok") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Taking you to boxugas tiktok"
-        document.location = "https://tiktok.com/@realboxuga"
-    }
-    else if (document.location.pathname == "/l/lush") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Taking you to my boi Lush's YouTube"
-        document.location = "https://youtube.com/LushModzツ"
-    }
-    else if (document.location.pathname == "/l/lushd") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Taking you to Lush Modz Discord"
-        document.location = "https://discord.gg/BZPWRuYEE4"
-    }
-    else if (document.location.pathname == "/l/") {
-        head.innerText = "Redirecting"
-        bottom.innerText = "Taking you to a list of links"
-        document.location = "/data/shortlinks.txt"
-    }
-    else if (document.location.pathname == "/l/supermarioisbest") {
-        document.location = "https://youtu.be/dQw4w9WgXcQ"
-    }
-    else {
-        head.innerText = "404 Error"
-        bottom.innerText = "You hit a snag but not a bunnings snag"
-        imagepage.src = "https://c.tenor.com/Rwrye_rjGDkAAAAd/choriso-sausage.gif"
-    }
-</script>
+
 </html>
