@@ -71,12 +71,12 @@ function GitHubReleaseinfo(projectnum)
 
 
 var gta5_modsprofile = "https://www.gta5-mods.com/users/boxxy";
-var twitter_url = "https://twitter.com/RealBoxuga";
+var twitter_url = "https://twitter.com/Boxuga_hedgehog";
 var youtube_boxuga_url = "https://youtube.com/@Boxuga";
 var youtube_boxugatwo_url = "https://youtube.com/@Boxuga2";
 var youtube_boxugathree_url = "https://youtube.com/@Boxuga3";
 var github_url = "https://github.com/BoxxyDEV";
-var tiktok_url = "https://www.tiktok.com/@realboxuga";
+var tiktok_url = "https://www.tiktok.com/@boxuga_hedgehog";
 var twitch_url = "https://twitch.tv/Boxuga";
 var console_mods = "/mods/console/";
 var sonic_cd_rtm_download = sonic_cd_rtm_releases;
